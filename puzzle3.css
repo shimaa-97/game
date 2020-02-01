@@ -1,0 +1,207 @@
+*
+{
+    box-sizing: border-box;
+}
+#start
+{
+    width: 100%;
+    height: 100%;
+}
+#backgroundimg
+{
+    width: 100%;
+    height: 100%;
+}
+#startgame
+{
+    margin-top: 0%;
+   background-color:rgb(128, 191, 196);
+   color: whitesmoke;
+   width: 25%;
+   height: 15%;
+   position: absolute;
+   bottom: 5%;
+   right: 38%;
+   border-radius: 40%;
+   font-size: 50px;
+   box-shadow: 3px 3px rgb(3, 71, 80);
+   cursor: pointer;
+}
+
+#maindiv
+{
+    width:100% ;
+    height: 100%;
+}
+
+#lefftdiv
+{
+    width: 80%;
+    height: 100%;
+    float: left;
+}
+
+#information
+{
+    width: 100%;
+    height: 50%;
+    background-color: rgb(128, 191, 196);
+}
+.info{
+    float: left;
+    width: 20%;
+    height: 80%;
+    margin: 1.7%;
+}
+.infoimg{
+    width: 100%;
+    height: 100%;
+    border-radius: 5%;
+}
+.fas{
+    font-size: 50px;
+    color: rgb(17, 39, 63);
+    
+}
+.controls{
+        width: 100px;
+        border: whitesmoke 1px solid;
+}
+.voicebtn
+{
+
+    margin-top: 5%;
+    border-radius: 5%;
+    width: 12%;
+    height: 70px;
+
+
+}
+
+#choose{
+    width: 100%;
+    height: 50%;
+    background-color: #0391b4;
+    display: flex;
+}
+.pikup{
+    
+    width: 25%;
+    height: 80%;
+    float: left;
+    margin: 1.65%;
+    margin-left: 5%;
+    
+}
+.pikup img{
+    width: 100%;
+    height: 100%;
+    border-radius: 25%;
+}
+.menu{
+    width: 20%;
+    height: 100%;
+    background-color: rgb(17, 39, 63);
+    float: right;
+    ;
+}
+
+.logimg{
+    width: 100%;
+    height: 150px;
+    border-radius: 50%;
+}
+ .btn{
+    width: 50%;
+    margin-left: 70px;
+    padding-top: 30px;
+}
+.menueIMG{
+    width: 100%;
+}
+#countain{
+    width: 100%;
+    height: 100%;
+
+}
+#puzdiv{
+    width: 80%;
+    height: 100%;
+    float: left;
+    background-color:#0391b4;
+}
+.rdiv{
+     width: 50%;
+     height: 100%;
+     float: right;
+     background-color: rgb(128, 191, 196);
+}
+.ldiv{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+.allphoto{
+        width: 70%;
+        height: 85%;
+         margin: 6%;
+        
+}
+.arrange{
+    width: 100%;
+    height: 25%;
+    border:.5px solid whitesmoke;
+
+}
+#myimg{
+    width: 100%;
+    height: 100%;
+}
+
+.countainer{
+    width: 100%;
+    border: 1px solid whitesmoke;
+    height: 100%;
+}
+
+
+
+.gameside
+{
+    width: 80%;
+    height: 100%;
+    float: left;
+}
+.all-drops{
+    width: 100%;
+    height: 50%;
+    background-color: rgb(128, 191, 196);
+}
+
+.all-drags
+{
+    width: 100%;
+    height: 50%;
+    background-color: #0391b4;
+}
+
+.picdiv{
+    border: whitesmoke 1px solid;
+    width: 15%;
+    height: 90%;
+    float: left;
+    margin-top: 1.5%;
+    margin-left: 4%
+}
+.picdiv2{
+    width: 15%;
+    height: 90%;
+    float: left;
+    margin-top: 1.5%;
+    margin-left: 4%
+}
+.pic
+{
+    width: 100%;
+    height: 85%;
+}

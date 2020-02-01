@@ -1,0 +1,124 @@
+<html>
+
+<head>
+    <title>puzzle game1</title>
+    <link rel="stylesheet" href="puzzle3.css">
+    <script src="jquery-1.11.3.min.js"></script>
+    <script src="puzzle3.js"></script>
+    <link rel="icon" href="image/lo.jpg" type="image/x-icon"/>
+    
+
+</head>
+
+<body>
+   
+
+    
+    <div id="countain">
+        <div id="puzdiv">
+            <div class="rdiv">
+                <div class="allphoto">
+                    <div class="arrange" ondrop="drop(event)">
+                        <img id="drag11" src="image/(bird)row-2-col-1.jpg" ondragstart="dragStart001(event)"
+                            draggable="true" id="IMAGE001" style="width: 100%; height: 100%;">
+                    </div>
+                    <div class="arrange" ondrop="drop(event)">
+                        <img id="drag22" src="image/(bird)row-4-col-1.jpg" ondragstart="dragStart002(event)"
+                            draggable="true" id="IMAGE002" style="width: 100%; height: 100%;">
+                    </div>
+                    <div class="arrange" ondrop="drop(event)">
+                        <img id="drag33" src="image/(bird)row-3-col-1.jpg" ondragstart="dragStart003(event)"
+                            draggable="true" id="IMAGE003" style="width: 100%; height: 100%;">
+                    </div>
+                    <div class="arrange" ondrop="drop(event)">
+                        <img id="drag44" src="image/(bird)row-1-col-1.jpg" ondragstart="dragStart004(event)"
+                            draggable="true" id="IMAGE004" style="width: 100%; height: 100%;">
+                    </div>
+
+                </div>
+            </div>
+            <div class="ldiv">
+                <div class="allphoto" id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">
+
+                    <div class="arrange" id="dropbox1" ondrop="drop006(event)" ondragover="allowDrop(event)"></div>
+                    <div class="arrange" id="dropbox2" ondrop="drop007(event)" ondragover="allowDrop(event)"></div>
+                    <div class="arrange" id="dropbox3" ondrop="drop008(event)" ondragover="allowDrop(event)"></div>
+                    <div class="arrange" id="dropbox4" ondrop="drop009(event)" ondragover="allowDrop(event)"></div>
+
+                </div>
+            </div>
+        </div>
+        <div class="menu">
+            <div id="logo"><img class="logimg" src="image/logo3.jpg"></div>
+            <div class="btn" id="ltrlevel"><img class="menueIMG" src=image/next1.png></div>
+            
+            <div class="btn"><img class="menueIMG"onclick="closeWindow()" src=image/quite.png></div>
+        </div>
+    </div>
+
+
+
+    <div class="countainer">
+        <div class="gameside">
+            <div class="all-drops">
+                <div id="drop1" class="picdiv" ondrop="drop006(event)" ondragover="allowDrop(event)"></div>
+                <div id="drop2" class="picdiv" ondrop="drop007(event)" ondragover="allowDrop(event)"></div>
+                <div id="drop3" class="picdiv" ondrop="drop008(event)" ondragover="allowDrop(event)"></div>
+                <div id="drop4" class="picdiv" ondrop="drop009(event)" ondragover="allowDrop(event)"></div>
+
+            </div>
+            <div class="all-drags">
+                <div class="picdiv2" ondrop="drop(event)">
+                    <img id="drag1" class="pic" src="image/ii.png" ondragstart="dragStart001(event)" draggable="true"
+                        id="target001">
+                </div>
+                <div class="picdiv2 " ondrop="drop(event)">
+                    <img id="drag2" class="pic" src="image/dd.png" ondragstart="dragStart002(event)" draggable="true"
+                        id="target002">
+                </div>
+                <div class="picdiv2 " ondrop="drop(event)">
+                    <img id="drag3" class="pic" src="image/rr.png" ondragstart="dragStart003(event)" draggable="true"
+                        id="target003">
+                </div>
+                <div class="picdiv2" ondrop="drop(event)">
+                    <img id="drag4" class="pic" src="image/bb.png" ondragstart="dragStart004(event)" draggable="true"
+                        id="target004">
+                </div>
+                <div class="picdiv2" ondrop="drop(event)">
+                    <img id="drag5" class="pic" src="image/ll.png" ondragstart="dragStart005(event)" draggable="true"
+                        id="target005">
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="menu">
+            <div id="logo"><img class="logimg" src="image/logo3.jpg"></div>
+            
+            <div class="btn" onclick="goback()"><img class="menueIMG" src=image/back1.png></div>
+            <div class="btn"><img class="menueIMG" onclick="closeWindow()" src=image/quite.png></div>
+        </div>
+    </div>
+<script>
+$(window).load(function () {
+   
+    $("#countain").show();
+    $(".countainer").hide();
+})
+
+
+$("#ltrlevel").click(function () {
+   
+    $(".countainer").show();
+   $("#countain").hide();
+})
+
+
+
+
+</script>
+
+</body>
+
+</html>
